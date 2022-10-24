@@ -1,0 +1,73 @@
+header{
+    background-color:#03a9f4 ;
+    background-image: url(../img/pattern.png) ;
+    background-attachment: fixed;
+    background-size: 30%;
+    height: 60px;
+ }
+ #logo{
+     height: 40px;
+     margin-top: 10px;
+     margin-left: 15%;
+ }
+ main,footer{
+    width: 70%;
+    margin: 20px auto;
+ }
+ h1{
+     margin-bottom: 0%;
+     font-size: 33px;
+ }
+ .sottotitolo{
+     color: grey;
+     margin-top: 0%;
+ }
+ #link{
+     color: #99cbff;
+     text-decoration: none;
+ }
+ .tim-berners{
+  width: 49%;
+  height: 320px;
+ }
+ .commento{
+     font-size: 10px;
+     margin-top: 0%;
+ }
+ .yellow{
+     background-color: yellow;
+ }
+ ul{
+     padding-left: 2%;
+ }
+ table{
+     border-spacing: 0px;
+ }
+ thead,td{
+     width: 10%;;
+ }
+ th{
+     background-color:#03a9f4;
+     color: white;
+     text-align: left;
+ }
+ #white{
+     background-color: white;
+ }
+ .blue{
+     background-color: #99cbff;
+ }
+ #pubblicità1{
+     background-image: url(../img/monitor.jpg);
+     height: 150px;
+     background-size: contain;
+     background-repeat: no-repeat;
+     color: white;
+ }
+ #pubblicità2{
+     background-image: url(../img/graph.jpg);
+     height: 150px;
+     background-size: contain;
+     background-repeat: no-repeat;
+     color: white;
+ }
