@@ -8,8 +8,8 @@ header{
     margin-top: 25px;
 }
 header,main,footer{
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 70%;
+    margin: 20px auto;
 }
 h1{
     margin-bottom: 0%;
