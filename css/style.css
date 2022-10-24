@@ -1,9 +1,33 @@
 header{
    background-color: #99cbff;
    background-image: url(../img/pattern.png) ;
-   background-size: 20%;
+   background-size: 30%;
 }
 #logo{
-    height: 50px;
-    margin-top: 30px;
+    height: 60px;
+    margin-top: 25px;
+}
+header,main{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+h1{
+    margin-bottom: 0%;
+    font-size: 33px;
+}
+.sottotitolo{
+    color: grey;
+    margin-top: 0%;
+}
+#link{
+    color: #99cbff;
+    text-decoration: none;
+}
+.tim-berners{
+ width: 49%;
+ height: 320px;
+}
+.commento{
+    font-size: 10px;
+    margin-top: 0%;
 }
