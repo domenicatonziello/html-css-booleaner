@@ -10,55 +10,58 @@
     <title>The Booleaner</title>
 </head>
 <body>
-    <header>
-      <div class="container">
-        <img id="logo" src="../img/logo.svg" alt="logo">
-      </div>
-    </header>
+       <header class="logo">
+          <div class="container">
+             <img id="logo" src="../img/logo.svg" alt="logo">
+          </div>
+       </header>
     <main>
-        <section>
+    <!--corpo principale-->
+        <header class="container">
             <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners Lee</h1>
-            <p class="sottotitolo"> Scritto da <a id="link" href="www.google.it">The Booleaner</a> <br>
-            il 10/10/2020</p>
-        </section>
-        <div>
+            <address class="sottotitolo"> Scritto da <a id="link" href="www.google.it">The Booleaner</a> </address>
+            <time class="text-small">10/10/2020</time>
+        </header>
+        <!--immagini-->
+        <figure class="container">
             <img class="tim-berners" src="../img/tim-1.jpg" alt="Tim Berners 1">
             <img class="tim-berners" src="../img/tim-2.jpg" alt="Tim Berners 2">
-            <p class="commento">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen <br>
+            <figcaption class="text-small">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen <br>
                2nd Photo: Tim Berners Lee, by Paul Clarke
-            </p>
+            </figcaption>
+        </figure>
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<mark>explicabo quibusdam fuga quidem hic quasi, necessitatibus consequatur aut et.</mark>  Eveniet magnam ducimus ut consequatur non beatae eius autem sed ullam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore perferendis aut adipisci laboriosam? Vel aliquid sit quos pariatur dicta optio maxime porro ipsam mollitia nulla odio, velit quod! Odio, nemo!</p>
         </div>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<span class="yellow">explicabo quibusdam fuga quidem hic quasi, necessitatibus consequatur aut et.</span>  Eveniet magnam ducimus ut consequatur non beatae eius autem sed ullam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore perferendis aut adipisci laboriosam? Vel aliquid sit quos pariatur dicta optio maxime porro ipsam mollitia nulla odio, velit quod! Odio, nemo!</p>
-        </div>
-        <div>
-            <ul>
+        <div class="container">
+            <ul class="container">
                 <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
                 <li>Perferendis et, sunt esse sint ipsa ea aspernatur.</li>
                 <li>Officia, suscipit similique quae ratione id, eos, neque officiis dolores dignissimos repudiandae ad inventore.</li>
             </ul>
         </div>
-        <div>
+        <!--tabella-->
+        <div class="container">
             <table>
                 <thead>
-                  <tr>
-                    <th>Lorem ipsum dolor</th>
-                    <th>Lorem ipsum dolor</th>
-                    <th>Lorem ipsum dolor</th>
-                  </tr>
+                    <tr>
+                      <th>Lorem ipsum dolor</th>
+                      <th>Lorem ipsum dolor</th>
+                      <th class="w-50">Lorem ipsum dolor</th>
+                    </tr>
                 </thead>
                 <tbody>
-                    <tr class="blue">
+                    <tr>
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptates neque debitis magnam consequuntur accusamus! Itaque, quas? Eveniet iusto officia ad laborum vero quae quibusdam!</td>
                     </tr>
-                    <tr>
+                    <tr class="even">
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptates neque debitis magnam consequuntur accusamus! Itaque, quas? Eveniet iusto officia ad laborum vero quae quibusdam! </td>
                     </tr>
-                    <tr class="blue">
+                    <tr>
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptates neque debitis magnam consequuntur accusamus! Itaque, quas? Eveniet iusto officia ad laborum vero quae quibusdam! </td>
@@ -66,18 +69,21 @@
                 </tbody>
             </table>
         </div>
-        <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="yellow">Iste labore natus praesentium earum consectetur quibusdam officiis.</span> Nesciunt, aspernatur eum aliquid quisquam ipsa sunt provident deleniti quidem incidunt accusantium officia amet. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore distinctio suscipit reprehenderit ex natus alias. Aliquid repellat assumenda ad neque commodi, dignissimos deserunt est quisquam qui laboriosam, provident tempore voluptas.</p>
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <mark>Iste labore natus praesentium earum consectetur quibusdam officiis.</mark> Nesciunt, aspernatur eum aliquid quisquam ipsa sunt provident deleniti quidem incidunt accusantium officia amet. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore distinctio suscipit reprehenderit ex natus alias. Aliquid repellat assumenda ad neque commodi, dignissimos deserunt est quisquam qui laboriosam, provident tempore voluptas.</p>
         </div>
     </main>
+    <!--pubblicità-->
     <footer>
-        <p class="sottotitolo">Potrebbero interessarti</p>
-        <div id="pubblicità1">
-            <p>Lorem ipsum dolor</p>
-        </div>
-        <div id="pubblicità2">
-            <p>Lorem ipsum dolor</p>
-        </div>
+        <aside class="container">
+           <h3 class="sottotitolo"> Potrebbero interessarti</h3>
+            <div class="pubblicità" id="monitor">
+               <h4>Lorem ipsum dolor</h4>
+            </div>
+            <div class="pubblicità" id="graph">
+                <h4>Lorem ipsum dolor</h4>
+            </div>
+        </aside>
     </footer>
 </body>
 </html>
