@@ -1,4 +1,4 @@
-header{
+.logo{
    background-color:#03a9f4 ;
    background-image: url(../img/pattern.png) ;
    background-size: 30%;
@@ -7,64 +7,66 @@ header{
     height: 60px;
     margin-top: 25px;
 }
-header,main,footer{
-    width: 70%;
-    margin: 20px auto;
+.container{
+    width: 1080px;
+    margin: 0 auto;
 }
+
 h1{
     margin-bottom: 0%;
-    font-size: 33px;
+    font-size: 38px;
 }
 .sottotitolo{
-    color: grey;
-    margin-top: 0%;
+    color: grey;  
 }
 #link{
     color: #99cbff;
     text-decoration: none;
 }
-.tim-berners{
- width: 49%;
- height: 320px;
+figure{
+    margin:20px 0;
 }
-.commento{
+.text-small{
     font-size: 10px;
-    margin-top: 0%;
-}
-.yellow{
-    background-color: yellow;
 }
 ul{
-    padding-left: 2%;
+    padding-inline-start: 0%;
+    list-style-position: inside;
 }
+/* Table */
 table{
     border-spacing: 0px;
 }
-thead,td{
-    width: 10%;;
+.w-50{
+    width: 50%;
 }
 th{
     background-color:#03a9f4;
     color: white;
     text-align: left;
 }
-#white{
+tr.even{
     background-color: white;
 }
-.blue{
+tr{
     background-color: #99cbff;
 }
-#pubblicità1{
-    background-image: url(../img/monitor.jpg);
-    height: 150px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    color: white;
+/* Pubblicità */
+h4{
+    margin: 0;
 }
-#pubblicità2{
-    background-image: url(../img/graph.jpg);
-    height: 150px;
+.pubblicità{
+    width: 200px;
+    height: 160px;
     background-size: contain;
     background-repeat: no-repeat;
     color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#monitor{
+    background-image: url(../img/monitor.jpg);
+}
+#graph{
+    background-image: url(../img/graph.jpg);
 }
